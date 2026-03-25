@@ -12,7 +12,7 @@
   "plugins": [
     {
       "name": "fact-checker",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "Systematically verify factual claims using multi-LLM triage and source-grounded verification.",
       "category": "research",
       "homepage": "https://github.com/machug/fact-checker",
