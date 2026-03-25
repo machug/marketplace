@@ -22,6 +22,10 @@ Then install any plugin:
 /plugin install fact-checker@machug
 ```
 
+## Author
+
+[Hugh McIntyre](https://hughtec.com/) ([X](https://x.com/mmhughmm))
+
 ## License
 
 MIT

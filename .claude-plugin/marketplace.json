@@ -2,7 +2,8 @@
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "machug",
   "owner": {
-    "name": "Hugh McIntyre"
+    "name": "Hugh McIntyre",
+    "url": "https://hughtec.com/"
   },
   "metadata": {
     "description": "AI-powered writing and research tools for Claude Code",
