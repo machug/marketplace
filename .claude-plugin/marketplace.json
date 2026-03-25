@@ -1,16 +1,21 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "machug",
   "owner": {
     "name": "Hugh McIntyre"
   },
   "metadata": {
-    "description": "AI-powered writing and research tools for Claude Code"
+    "description": "AI-powered writing and research tools for Claude Code",
+    "version": "1.0.0"
   },
   "plugins": [
     {
       "name": "fact-checker",
       "version": "1.1.0",
       "description": "Systematically verify factual claims using multi-LLM triage and source-grounded verification.",
+      "category": "research",
+      "homepage": "https://github.com/machug/fact-checker",
+      "strict": true,
       "source": {
         "source": "url",
         "url": "https://github.com/machug/fact-checker.git"
