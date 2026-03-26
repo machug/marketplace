@@ -7,6 +7,7 @@ A Claude Code plugin marketplace by Hugh McIntyre. AI-powered writing and resear
 | Plugin | Description |
 |--------|-------------|
 | [fact-checker](https://github.com/machug/fact-checker) | Multi-LLM fact-checking for documents. Extracts claims, cross-checks with independent models, and verifies against authoritative sources. |
+| [spec-debate](https://github.com/machug/spec-debate) | Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus. Fork of [adversarial-spec](https://github.com/zscole/adversarial-spec) with updated models and GPT-5/O3/O4 fixes. |
 
 ## Usage
 
