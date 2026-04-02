@@ -33,6 +33,18 @@
         "source": "url",
         "url": "https://github.com/machug/spec-debate.git"
       }
+    },
+    {
+      "name": "gtm-forge",
+      "version": "1.0.0",
+      "description": "Build, validate, and stress-test Go-To-Market strategies for enterprise managed services. Multi-LLM adversarial critique, vendor claim verification, competitive counter-pitches, and funding research.",
+      "category": "strategy",
+      "homepage": "https://github.com/machug/gtm-forge",
+      "strict": true,
+      "source": {
+        "source": "url",
+        "url": "https://github.com/machug/gtm-forge.git"
+      }
     }
   ]
 }
