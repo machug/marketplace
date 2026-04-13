@@ -37,6 +37,18 @@
       }
     },
     {
+      "name": "crucible",
+      "version": "0.1.0",
+      "description": "Multi-LLM adversarial project review. Evaluates progress, tech stack, code quality, CI/CD, and plan drift through parallel critique from multiple AI models.",
+      "category": "development",
+      "homepage": "https://github.com/machug/crucible",
+      "strict": true,
+      "source": {
+        "source": "url",
+        "url": "https://github.com/machug/crucible.git"
+      }
+    },
+    {
       "name": "gtm-forge",
       "version": "1.1.0",
       "description": "Build, validate, and stress-test Go-To-Market strategies for enterprise managed services. Multi-LLM adversarial critique, vendor claim verification, competitive counter-pitches, and funding research.",
