@@ -25,8 +25,8 @@
     },
     {
       "name": "spec-debate",
-      "version": "1.4.0",
-      "changelog": "Refresh model defaults to April 2026 catalog (gpt-5.5, claude-opus-4-7, deepseek-v4-pro, kimi-k2.6, grok-4.3, gpt-5.5-codex). Add Moonshot Kimi block to discover-models so kimi-k2.6 and other variants surface from the live API.",
+      "version": "1.5.0",
+      "changelog": "Add Azure Foundry region-aware model discovery. discover-models now lists Foundry-deployable models filtered by AZURE_AI_REGION (or auto-derived from AZURE_AI_API_BASE). New foundry-regions <model> subcommand scans Azure regions for deployment availability with SKU types. Documents Anthropic Enterprise/MCA-E subscription requirement.",
       "description": "Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus.",
       "category": "development",
       "homepage": "https://github.com/machug/spec-debate",
