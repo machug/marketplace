@@ -62,8 +62,8 @@
     },
     {
       "name": "pi-cli-skill",
-      "version": "0.1.2",
-      "changelog": "Fix: slash command processor textually substitutes $0..$9 in skill body, breaking inline awk/bash. Moved all logic to bin/*.sh scripts so skill body is substitution-safe. Also keeps the v0.1.1 stderr fix.",
+      "version": "0.2.0",
+      "changelog": "Drop SDK + bundled node_modules. Pure shell-out via pi --print --mode json + jq. Saves ~110MB local install. Matches gstack codex / crucible pattern.",
       "description": "Pi CLI wrapper — code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
       "category": "development",
       "homepage": "https://github.com/machug/pi-cli-skill",
