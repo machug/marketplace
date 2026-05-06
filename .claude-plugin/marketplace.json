@@ -62,7 +62,8 @@
     },
     {
       "name": "pi-cli-skill",
-      "version": "0.1.0",
+      "version": "0.1.1",
+      "changelog": "Fix: pi CLI writes diagnostics (--version, --list-models) to stderr, not stdout. Preamble + /pi models now use 2>&1 so version/discovery works under non-TTY skill execution.",
       "description": "Pi CLI wrapper — code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
       "category": "development",
       "homepage": "https://github.com/machug/pi-cli-skill",
