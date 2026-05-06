@@ -62,8 +62,8 @@
     },
     {
       "name": "pi-cli-skill",
-      "version": "0.2.0",
-      "changelog": "Drop SDK + bundled node_modules. Pure shell-out via pi --print --mode json + jq. Saves ~110MB local install. Matches gstack codex / crucible pattern.",
+      "version": "0.2.1",
+      "changelog": "Reword SKILL.md to remove literal $N references in prose — slash-command processor was substituting them inside the warning text itself, mangling the docs. Plus the v0.2.0 SDK drop.",
       "description": "Pi CLI wrapper — code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
       "category": "development",
       "homepage": "https://github.com/machug/pi-cli-skill",
