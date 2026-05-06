@@ -59,6 +59,18 @@
         "source": "url",
         "url": "https://github.com/machug/gtm-forge.git"
       }
+    },
+    {
+      "name": "pi-cli-skill",
+      "version": "0.1.0",
+      "description": "Pi CLI wrapper — code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
+      "category": "development",
+      "homepage": "https://github.com/machug/pi-cli-skill",
+      "strict": true,
+      "source": {
+        "source": "url",
+        "url": "https://github.com/machug/pi-cli-skill.git"
+      }
     }
   ]
 }
