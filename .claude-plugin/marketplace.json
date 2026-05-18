@@ -25,8 +25,8 @@
     },
     {
       "name": "spec-debate",
-      "version": "1.5.0",
-      "changelog": "Add Azure Foundry region-aware model discovery. discover-models now lists Foundry-deployable models filtered by AZURE_AI_REGION (or auto-derived from AZURE_AI_API_BASE). New foundry-regions <model> subcommand scans Azure regions for deployment availability with SKU types. Documents Anthropic Enterprise/MCA-E subscription requirement.",
+      "version": "1.5.1",
+      "changelog": "Fix Codex CLI compatibility for codex-cli 0.130: --full-auto -> --sandbox workspace-write, --search -> --enable web_search, stdin redirected to /dev/null. Codex error parser now reads structured JSONL error events instead of bubbling up noisy stderr (skill-load + deprecation warnings no longer masquerade as failures). Removed nonexistent gpt-5.5-codex model references — gpt-5.5 unified the Codex line. Default Codex CLI model is now codex/gpt-5.5; gpt-5.5-pro documented as API-only (ChatGPT subscription rejects it).",
       "description": "Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus.",
       "category": "development",
       "homepage": "https://github.com/machug/spec-debate",
