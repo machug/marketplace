@@ -25,8 +25,8 @@
     },
     {
       "name": "spec-debate",
-      "version": "1.5.1",
-      "changelog": "Fix Codex CLI compatibility for codex-cli 0.130: --full-auto -> --sandbox workspace-write, --search -> --enable web_search, stdin redirected to /dev/null. Codex error parser now reads structured JSONL error events instead of bubbling up noisy stderr (skill-load + deprecation warnings no longer masquerade as failures). Removed nonexistent gpt-5.5-codex model references — gpt-5.5 unified the Codex line. Default Codex CLI model is now codex/gpt-5.5; gpt-5.5-pro documented as API-only (ChatGPT subscription rejects it).",
+      "version": "1.6.0",
+      "changelog": "May 2026 model refresh validated against live discover-models. Removed nonexistent defaults that hard-failed at runtime: xai/grok-4.3-reasoning + xai/grok-4.3-fast (real model is xai/grok-4.3), gpt-5.5-mini (now gpt-5.4-mini), moonshot/kimi-k2-thinking (only k2.5/k2.6 exist). Added gemini/gemini-3.5-flash. Fixed kimi-k2.6 reasoning detection (temperature-only-1 constraint). Fixed gpt-5.5-pro 'max_output_tokens' hard-fail: reasoning models now get a scaled output budget (32k, 64k for -pro) and gpt-5.5 is instructed to keep visible output concise so reasoning + answer fit.",
       "description": "Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus.",
       "category": "development",
       "homepage": "https://github.com/machug/spec-debate",
