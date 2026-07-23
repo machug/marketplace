@@ -25,8 +25,8 @@
     },
     {
       "name": "spec-debate",
-      "version": "1.7.0",
-      "changelog": "Added MiniMax provider (MINIMAX_API_KEY) with MiniMax-M3 flagship, routed via litellm's native minimax provider to the international endpoint (api.minimax.io); wired into the provider list, credential validation, and live discover-models. M3 accepts temperature so it runs on the standard (non-reasoning) path. Requires litellm>=1.83.0 for M3 cost-registry support. June 2026 catalog re-validated against live discover-models across OpenAI, Gemini, Anthropic, xAI, and MiniMax.",
+      "version": "1.9.0",
+      "changelog": "v1.9.0: July 2026 model catalog refresh — GPT-5.6 line (sol/terra/luna), Moonshot kimi-k3 and kimi-k2.7-code (temperature detection extended), xai/grok-4.5, zai/glm-5.2, gemini-3.6-flash, MiniMax-M2.7; new provider defaults; OPENAI_BASE_URL misroute warning. v1.8.0: --review-only judge mode ([AGREE]/short critique without spec re-emission, enabling gpt-5.5-pro and claude-opus-4-7 as acceptance gates) plus real GPT-5 output controls (verbosity=low, reasoning_effort=medium for non-pro tiers).",
       "description": "Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus.",
       "category": "development",
       "homepage": "https://github.com/machug/spec-debate",
