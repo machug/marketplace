@@ -25,8 +25,8 @@
     },
     {
       "name": "spec-debate",
-      "version": "1.9.0",
-      "changelog": "v1.9.0: July 2026 model catalog refresh — GPT-5.6 line (sol/terra/luna), Moonshot kimi-k3 and kimi-k2.7-code (temperature detection extended), xai/grok-4.5, zai/glm-5.2, gemini-3.6-flash, MiniMax-M2.7; new provider defaults; OPENAI_BASE_URL misroute warning. v1.8.0: --review-only judge mode ([AGREE]/short critique without spec re-emission, enabling gpt-5.5-pro and claude-opus-4-7 as acceptance gates) plus real GPT-5 output controls (verbosity=low, reasoning_effort=medium for non-pro tiers).",
+      "version": "1.9.1",
+      "changelog": "v1.9.1: codex review fixes \u2014 export-tasks/emit-plan token-param fix for Moonshot reasoning models (kimi-k3 default broke both), OPENAI_BASE_URL misroute warning on all litellm paths, Kimi reasoning detection anchored to version segment, o3-pro doc drift reconciled. v1.9.0: July 2026 model catalog refresh \u2014 GPT-5.6 line (sol/terra/luna), Moonshot kimi-k3 and kimi-k2.7-code (temperature detection extended), xai/grok-4.5, zai/glm-5.2, gemini-3.6-flash, MiniMax-M2.7; new provider defaults; OPENAI_BASE_URL misroute warning. v1.8.0: --review-only judge mode ([AGREE]/short critique without spec re-emission, enabling gpt-5.5-pro and claude-opus-4-7 as acceptance gates) plus real GPT-5 output controls (verbosity=low, reasoning_effort=medium for non-pro tiers).",
       "description": "Multi-LLM adversarial spec debate. Refines PRDs and tech specs through iterative critique until all models reach consensus.",
       "category": "development",
       "homepage": "https://github.com/machug/spec-debate",
@@ -63,8 +63,8 @@
     {
       "name": "pi-cli-skill",
       "version": "0.2.1",
-      "changelog": "Reword SKILL.md to remove literal $N references in prose — slash-command processor was substituting them inside the warning text itself, mangling the docs. Plus the v0.2.0 SDK drop.",
-      "description": "Pi CLI wrapper — code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
+      "changelog": "Reword SKILL.md to remove literal $N references in prose \u2014 slash-command processor was substituting them inside the warning text itself, mangling the docs. Plus the v0.2.0 SDK drop.",
+      "description": "Pi CLI wrapper \u2014 code review / adversarial challenge / consult with session continuity. Provider-agnostic second opinion via @mariozechner/pi-coding-agent.",
       "category": "development",
       "homepage": "https://github.com/machug/pi-cli-skill",
       "strict": true,
