@@ -12,8 +12,8 @@
   "plugins": [
     {
       "name": "fact-checker",
-      "version": "1.3.4",
-      "changelog": "Codex CLI 0.130 compatibility: --full-auto -> --sandbox workspace-write (old flag deprecated), stdin redirected to /dev/null (silences 'Reading additional input from stdin'), Codex error parser now reads structured JSONL error/turn.failed events instead of bubbling up noisy stderr (skill-load + deprecation warnings no longer masquerade as failures). Matches the spec-debate v1.5.1 fix.",
+      "version": "1.4.0",
+      "changelog": "August 2026 refresh (ports spec-debate v1.10.0): non-retryable error fast-fail (deterministic 400s no longer retry 3x), Codex ChatGPT-account preflight warning + actionable hint on model rejections, new Antigravity CLI provider (antigravity/<slug>, Gemini CLI's successor after the 2026-06-18 consumer retirement), MiniMax provider, catalog refresh (gpt-5.6-sol, claude-opus-5, grok-4.5, deepseek-v4-pro, glm-5.2, kimi-k3), OPENAI_BASE_URL override warning, retry-loop refactor, litellm floor 1.96.",
       "description": "Systematically verify factual claims using multi-LLM triage and source-grounded verification.",
       "category": "research",
       "homepage": "https://github.com/machug/fact-checker",
